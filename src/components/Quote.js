@@ -10,7 +10,8 @@ class Quote extends Component {
 	render() {
 		return (
 			<div>
-				<p>&ldquo;{this.state.quote}&rdquo; <i className='fa fa-rebel'></i></p>
+				<h2>&ldquo;{this.state.quote}&rdquo;</h2>
+				<h3><i className='fa fa-rebel'></i></h3>
 			</div>
 		)
 	}
