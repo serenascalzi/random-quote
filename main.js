@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     let randomQuote = quotes[0]
 
-    let quote = `<h2>&ldquo;${randomQuote}&rdquo;</h2>`
+    let quote = `<h2>&ldquo;${randomQuote}&rdquo;</h2> <h3><i class='fa fa-rebel'></i></h3>`
 
     $('#quote').html(quote)
 })
